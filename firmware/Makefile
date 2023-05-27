@@ -26,6 +26,7 @@ EXTRASRCS = \
 	$(SDIR)/stm8s_tim1.c \
 	$(SDIR)/stm8s_tim2.c \
 	$(SDIR)/stm8s_adc1.c \
+	analog.c \
 	state.c \
 	# all of the stm8 features, add as needed 
 	#$(SDIR)/stm8s_adc1.c \
@@ -56,7 +57,7 @@ EXTRASRCS = \
 	$(SDIR)/stm8s_uart4.c \
 	$(SDIR)/stm8s_wwdg.c \
 
-HEADERS = state.h
+HEADERS = analog.h state.h
 
 # The list of .rel files can be derived from the list of their source files
 RELS = $(EXTRASRCS:.c=.rel)

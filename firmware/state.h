@@ -21,7 +21,7 @@
 
 #define DOWN_BUTTON_PORT GPIOD
 #define DOWN_BUTTON_PIN GPIO_PIN_6
-#define DOWN_BUTTON_MODE GPIO_MODE_IN__NO_IT
+#define DOWN_BUTTON_MODE GPIO_MODE_IN_FL_NO_IT
 
 typedef struct State_struct
 {
